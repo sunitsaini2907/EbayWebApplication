@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import BaseClass.SetUp;
 
 public class RecentViewItems extends SearchFunctionality {
-  @Test(priority=5, groups= "recentItem")
+  @Test(priority=5)
   public void recentViewItems() {
 	  driver.get("https://www.ebay.ca/");
 	 

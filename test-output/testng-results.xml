@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-20T22:50:27 EST" name="Default suite" finished-at="2025-12-20T22:50:31 EST" duration-ms="4905">
+  <suite started-at="2025-12-21T14:25:07 EST" name="Default suite" finished-at="2025-12-21T14:25:09 EST" duration-ms="1514">
     <groups>
     </groups>
-    <test started-at="2025-12-20T22:50:27 EST" name="Default test" finished-at="2025-12-20T22:50:31 EST" duration-ms="4905">
-      <class name="TestCases.AdvancedSearch">
-        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:TestCases.AdvancedSearch@7dcf94f8]" started-at="2025-12-20T22:50:23 EST" name="OpenBrowser" finished-at="2025-12-20T22:50:27 EST" duration-ms="3255" status="PASS">
+    <test started-at="2025-12-21T14:25:07 EST" name="Default test" finished-at="2025-12-21T14:25:09 EST" duration-ms="1514">
+      <class name="TestCases.ScrollingToElement">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:TestCases.ScrollingToElement@7dcf94f8]" started-at="2025-12-21T14:25:04 EST" name="OpenBrowser" finished-at="2025-12-21T14:25:07 EST" duration-ms="2928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method signature="advancedSearch()[pri:0, instance:TestCases.AdvancedSearch@7dcf94f8]" started-at="2025-12-20T22:50:27 EST" name="advancedSearch" finished-at="2025-12-20T22:50:31 EST" duration-ms="4858" status="PASS">
+        <test-method signature="srollElementIntoView()[pri:1, instance:TestCases.ScrollingToElement@7dcf94f8]" started-at="2025-12-21T14:25:07 EST" name="srollElementIntoView" finished-at="2025-12-21T14:25:09 EST" duration-ms="1482" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- advancedSearch -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.AdvancedSearch@7dcf94f8]" started-at="2025-12-20T22:50:31 EST" name="closeBrowser" finished-at="2025-12-20T22:50:37 EST" duration-ms="5242" status="PASS">
+        </test-method> <!-- srollElementIntoView -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.ScrollingToElement@7dcf94f8]" started-at="2025-12-21T14:25:09 EST" name="closeBrowser" finished-at="2025-12-21T14:25:14 EST" duration-ms="5248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- TestCases.AdvancedSearch -->
+      </class> <!-- TestCases.ScrollingToElement -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

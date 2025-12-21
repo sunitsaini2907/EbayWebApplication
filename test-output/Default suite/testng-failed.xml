@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.ScrollingToElement">
+      <class name="TestCases.RecentViewItems">
         <methods>
+          <include name="checkout"/>
           <include name="closeBrowser"/>
-          <include name="srollElementIntoView"/>
+          <include name="addToCart"/>
           <include name="OpenBrowser"/>
         </methods>
-      </class> <!-- TestCases.ScrollingToElement -->
+      </class> <!-- TestCases.RecentViewItems -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
